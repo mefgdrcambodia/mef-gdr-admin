@@ -1,0 +1,65 @@
+.date-input-selector {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: gray;
+  font-family: "Siemreap";
+  line-height: 1.8;
+  padding: 6px 10px;
+  font-size: 16px;
+
+  width: 100% !important;
+  height: auto;
+  box-sizing: border-box;
+  display: block;
+  flex: 1 1 auto;
+}
+
+.date-input-selector-correct {
+  border-color: gray;
+}
+
+.holder-error {
+  width: 100%;
+  text-align: left;
+  color: red;
+}
+
+.color-font-datepicker {
+  color: red;
+}
+
+/* Target the dropdown calendar background */
+.react-datepicker {
+  background-color: white; /* Change this to your desired background color */
+  border: 1px solid #ccc; /* Optional */
+  z-index: 9999;
+  position: relative;
+}
+
+.react-datepicker-popper {
+  z-index: 9999 !important; /* Force it to be on top */
+  position: absolute; /* Ensure correct positioning */
+}
+
+/* Optional: change header background */
+.react-datepicker__header {
+  color: white;
+}
+
+/* Optional: change day cells */
+.react-datepicker__day {
+  background-color: white;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Change the time selector background (if showTimeSelect is true) */
+.react-datepicker__time-container,
+.react-datepicker__time {
+  background-color: #f0f0f0;
+}

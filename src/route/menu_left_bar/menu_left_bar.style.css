@@ -1,0 +1,29 @@
+/* Hide the submenu arrow in react-pro-sidebar */
+.ps-submenu-expand-icon {
+  display: none !important;
+}
+/* Only hide submenu arrow for SubMenu with class "no-arrow" */
+.no-arrow .ps-submenu-expand-icon {
+  display: none !important;
+}
+
+/* Disable submenu toggle by blocking pointer events */
+.submenu-locked > .ps-menu-button {
+  pointer-events: none;
+}
+
+/* Optional: visually dim the arrow or hide it */
+.submenu-locked .ps-submenu-expand-icon {
+  display: none;
+}
+
+/* Remove sidebar box shadow */
+.custom-sidebar {
+  box-shadow: none !important;
+  border-right: none !important;
+}
+/* Remove any border */
+.ps-sidebar-root {
+  border-right: none !important;
+}
+
